@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, TextInput, Button, FlatList, Text } from 'react-native';
 import { firebase } from './firebaseConfig';
 
+
 export default function ChatScreen() {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
